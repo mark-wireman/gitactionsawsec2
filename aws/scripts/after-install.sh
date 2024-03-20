@@ -1,7 +1,7 @@
 #!/bin/bash
 set -xe
-export USERNAME="foobaruser"
-export secretKey="foobaruserkey"
+export USERNAME=foobaruser
+export secretKey=foobaruserkey
 
 
 # Copy war file from S3 bucket to tomcat webapp folder
