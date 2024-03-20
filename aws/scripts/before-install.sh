@@ -7,3 +7,6 @@ if [ -d /usr/local/codedeployresources ]; then
 fi
 
 mkdir -vp /usr/local/codedeployresources
+
+echo 'export USERNAME="foouser"' >> ~/.bashrc
+echo 'export secretKey="foousersecret"' >> ~/.bashrc
