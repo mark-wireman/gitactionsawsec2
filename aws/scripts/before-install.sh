@@ -10,3 +10,5 @@ mkdir -vp /usr/local/codedeployresources
 
 echo 'export USERNAME="foouser"' >> ~/.bashrc
 echo 'export secretKey="foousersecret"' >> ~/.bashrc
+
+source ~/.bashrc
